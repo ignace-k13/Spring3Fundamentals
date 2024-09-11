@@ -1,8 +1,7 @@
-package be.abis.exercise.service.impl;
+package be.abis.exercise.service;
 
 import be.abis.exercise.model.Course;
 import be.abis.exercise.repository.CourseRepository;
-import be.abis.exercise.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
