@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Profile("prod")
 public class AbisPersonService implements PersonService {
 
     private PersonRepository personRepository;
