@@ -26,7 +26,6 @@ public class MemoryCourseRepository implements CourseRepository {
 	public void setCourses(ArrayList<Course> courses) {
 		this.courses = courses;
 	}
-
 	
 	@Override
 	public List<Course> findAllCourses() {

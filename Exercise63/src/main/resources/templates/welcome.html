@@ -1,0 +1,14 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Welcome</title>
+</head>
+<body>
+	<h1>Hello <span th:text="${fullName}"/></h1>
+    <h2>Course <span th:text="${course.courseId}"/> is: <span th:text="${course.longTitle}"/></h2>
+	<form action="#" th:action="@{/logout}" method="get">
+		<span style="margin-left: 300px"><input type="submit" th:value="Logout"/></span>
+	</form>
+
+</body>
+</html>

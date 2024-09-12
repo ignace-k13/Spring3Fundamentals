@@ -5,8 +5,6 @@ import be.abis.exercise.model.Course;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 public class MemoryCourseRepository implements CourseRepository {
 	
 	private List<Course> courses = new ArrayList<Course>();

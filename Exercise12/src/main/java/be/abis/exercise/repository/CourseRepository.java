@@ -7,8 +7,8 @@ import java.util.List;
 
 public interface CourseRepository {
 
-	public List<Course> findAllCourses();
-	public Course findCourse(int id);
-	public Course findCourse(String shortTitle);
+	 List<Course> findAllCourses();
+	 Course findCourse(int id);
+	 Course findCourse(String shortTitle);
 		
 }

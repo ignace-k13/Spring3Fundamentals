@@ -1,4 +1,4 @@
-package be.abis.exercise.service.impl;
+package be.abis.exercise.service;
 
 import be.abis.exercise.exception.EnrollException;
 import be.abis.exercise.model.Course;

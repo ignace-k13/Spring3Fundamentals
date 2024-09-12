@@ -7,7 +7,6 @@ public class Address {
 	private String zipcode;
 	private int nr;
 	
-	
 	public String getStreet() {
 		return street;
 	}

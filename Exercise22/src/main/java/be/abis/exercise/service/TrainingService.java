@@ -10,8 +10,8 @@ import java.util.List;
 public interface TrainingService {
 
     String getWelcomeMessage();
-    PersonService getPersonService();
 
+    PersonService getPersonService();
     //public CourseService getCourseService();
 
     List<Course> showFollowedCourses(Person person);

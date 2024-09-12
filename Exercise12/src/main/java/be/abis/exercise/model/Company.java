@@ -6,7 +6,9 @@ public class Company{
 	private String telephoneNumber;
 	private String vatNr;
 	private Address address;
-		
+
+
+
 	public String getName() {
 		return name;
 	}
