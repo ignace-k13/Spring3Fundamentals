@@ -13,19 +13,8 @@ import java.util.List;
 @Service
 public class AbisPersonService implements PersonService {
 
+    @Autowired
     private PersonRepository personRepository;
-
-    public AbisPersonService(PersonRepository personRepository) {
-        this.personRepository = personRepository;
-    }
-
-    public PersonRepository getPersonRepository() {
-        return personRepository;
-    }
-
-    public void setPersonRepository(PersonRepository personRepository) {
-        this.personRepository = personRepository;
-    }
 
     @Override
     public List<Person> getAllPersons() {
